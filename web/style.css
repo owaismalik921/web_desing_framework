@@ -1,0 +1,107 @@
+body {
+  background-image: url("https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?t=st=1675636019~exp=1675636619~hmac=b99126d3713b500c5d80555b744e32a440782c0aca8a9f58ea4841850cd77c33");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  text-align: center;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 00px;
+  height: 70vh;
+}
+h1,h4{
+  color: #2C7E86;
+}
+h3{
+   color: #2C7E86;  
+}
+p{
+  color: #7D7D7D;
+  text-align: justify;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  color: #7D7D7D;
+  text-align: center;
+   text-align: left;
+  padding-left: 38%;
+  padding-bottom: 3%;
+}
+.example {
+  color: blue;
+/*  width: 5%;*/
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 2px;
+  padding-left: 38%;
+}
+.column {
+  width: 33%;
+  text-align: center;
+  color: white;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 0px;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 130px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+
+textarea {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+a{
+  padding-right: 20px;
+}
+button[type="submit"] {
+  padding: 10px 50px;
+  background-color: blue;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+ display: block;
+ margin: 0 auto;
+
+}
+
+button[type="submit"]:hover {
+  background-color: lightblue;
+  align-content: center;
+}
